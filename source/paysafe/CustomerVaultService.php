@@ -88,7 +88,8 @@ class CustomerVaultService
             'email',
             'phone',
             'cellPhone',
-            'cards'
+            'cards',
+            'card'
         ));
 
         $request = new Request(array(

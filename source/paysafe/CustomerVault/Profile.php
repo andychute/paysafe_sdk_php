@@ -38,6 +38,7 @@ namespace Paysafe\CustomerVault;
  * @property string $paymentToken
  * @property \OptimalPayments\CustomerVault\Address[] $addresses
  * @property \OptimalPayments\CustomerVault\Card[] $cards
+ * * @property \OptimalPayments\CustomerVault\Card $card
  * @property \OptimalPayments\Error $error
  * @property \OptimalPayments\Link[] $links
  * @property \OptimalPayments\achbankaccount $achBankAccounts
@@ -75,6 +76,7 @@ class Profile extends \Paysafe\JSONObject
          'paymentToken'=>'string',
          'addresses'=>'array:\Paysafe\CustomerVault\Address',
          'cards'=>'array:\Paysafe\CustomerVault\Card',
+         'card'=>'\Paysafe\CustomerVault\Card',
          'error' => '\Paysafe\Error',
          'links' => 'array:\Paysafe\Link',
 		 'achBankAccounts' => '\Paysafe\CustomerVault\ACHBankaccounts',

@@ -74,7 +74,6 @@ class Profile extends \Paysafe\JSONObject
          'phone'=>'string',
          'cellPhone'=>'string',
          'paymentToken'=>'string',
-         'fields'=>'string',
          'addresses'=>'array:\Paysafe\CustomerVault\Address',
          'cards'=>'array:\Paysafe\CustomerVault\Card',
          'card'=>'\Paysafe\CustomerVault\Card',

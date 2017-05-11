@@ -402,6 +402,8 @@ class CustomerVaultService
             'merchantRefNum',
             'holderName',
             'billingAddressId',
+            'cardNum',
+            'singleUseToken'
         ));
 
         $request = new Request(array(

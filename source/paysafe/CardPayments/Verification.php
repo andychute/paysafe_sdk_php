@@ -66,7 +66,9 @@ class Verification extends \Paysafe\JSONObject implements \Paysafe\Pageable
          'avsResponse' => array(
               'MATCH',
               'PARTIAL_MATCH_ADDRESS',
+              'MATCH_ADDRESS_ONLY',
               'PARTIAL_MATCH_ZIP',
+              'MATCH_ZIP_ONLY',
               'NO_MATCH',
               'NOT_PROCESSED',
               'UNKNOWN'
